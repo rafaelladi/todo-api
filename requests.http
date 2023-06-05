@@ -1,0 +1,11 @@
+POST http://localhost:8081/api/tags
+Content-Type: application/json
+
+{
+  "name": "test 2",
+  "color": "RED"
+}
+
+
+###
+GET http://localhost:8081/api/tags
